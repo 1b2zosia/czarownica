@@ -54,7 +54,12 @@ a.podst {
     display: inline-block;
 }
 #film {
-    background-color: pink;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    
+}
+#film iframe {
+    height: 500px;
+    width: 900px;
 }
